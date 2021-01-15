@@ -16,6 +16,22 @@
 
 ## 🏠 [Homepage](https://github.com/koromerzhin/templates#readme)
 
+## Infos
+
+| projet | description |
+|--|--|
+| angular | Nouveau projet sous angular |
+| django | Nouveau projet sous django |
+| electron | Nouveau projet sous electron |
+| flutter | Nouveau projet sous flutter |
+| github | Nouveau projet sous github |
+| laravel | Nouveau projet sous laravel |
+| phpfpm | Nouveau projet sous phpfpm |
+| quasar | Nouveau projet sous quasar |
+| react | Nouveau projet sous react |
+| symfony | Nouveau projet sous symfony |
+| vuejs | Nouveau projet sous vuejs |
+
 ## Need
 
 Software:
