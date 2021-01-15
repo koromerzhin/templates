@@ -1,0 +1,24 @@
+[submodule "electron"]
+	path = electron
+	url = git@github.com:koromerzhin/template-electron.git
+[submodule "django"]
+	path = django
+	url = git@github.com:koromerzhin/template-django.git
+[submodule "vuejs"]
+	path = vuejs
+	url = git@github.com:koromerzhin/template-vuejs.git
+[submodule "symfony"]
+	path = symfony
+	url = git@github.com:koromerzhin/template-symfony.git
+[submodule "react"]
+	path = react
+	url = git@github.com:koromerzhin/template-react.git
+[submodule "angular"]
+	path = angular
+	url = git@github.com:koromerzhin/template-angular.git
+[submodule "github"]
+	path = github
+	url = git@github.com:koromerzhin/template-github.git
+[submodule "phpfpm"]
+	path = phpfpm
+	url = git@github.com:koromerzhin/template-phpfpm.git
