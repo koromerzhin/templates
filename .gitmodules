@@ -22,3 +22,6 @@
 [submodule "phpfpm"]
 	path = phpfpm
 	url = git@github.com:koromerzhin/template-phpfpm.git
+[submodule "quasar"]
+	path = quasar
+	url = git@github.com:koromerzhin/template-quasar.git
