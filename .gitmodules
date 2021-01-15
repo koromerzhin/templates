@@ -28,3 +28,6 @@
 [submodule "flutter"]
 	path = flutter
 	url = git@github.com:koromerzhin/template-flutter.git
+[submodule "laravel"]
+	path = laravel
+	url = git@github.com:koromerzhin/template-laravel.git
