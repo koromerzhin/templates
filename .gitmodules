@@ -25,3 +25,6 @@
 [submodule "quasar"]
 	path = quasar
 	url = git@github.com:koromerzhin/template-quasar.git
+[submodule "flutter"]
+	path = flutter
+	url = git@github.com:koromerzhin/template-flutter.git
