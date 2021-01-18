@@ -13,6 +13,7 @@ node_modules: package-lock.json
 
 install: node_modules ## Installation application
 	@make git-submodule -i
+	git submodule foreach make install
 
 contributors: ## Contributors
 	@npm run contributors
@@ -25,6 +26,15 @@ contributors-check: ## check Contributors
 
 contributors-generate: ## generate Contributors
 	@npm run contributors generate
+
+docker-image-pull: ## Get docker image
+	git submodule foreach make docker-image-pull
+
+docker-deploy: ## deploy
+	git submodule foreach make docker-deploy
+
+docker-stop: ## docker stop
+	git submodule foreach make docker-stop
 
 git-commit: ## Commit data
 	npm run commit
