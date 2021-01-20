@@ -31,6 +31,7 @@
 | react | Nouveau projet sous react |
 | symfony | Nouveau projet sous symfony |
 | vuejs | Nouveau projet sous vuejs |
+| wordpress | Nouveau projet sous wordpress |
 
 ## Need
 

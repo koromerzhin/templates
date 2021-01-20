@@ -30,6 +30,9 @@ contributors-generate: ## generate Contributors
 docker-image-pull: ## Get docker image
 	git submodule foreach make docker-image-pull
 
+docker-ls: ## docker ls
+	git submodule foreach make docker-ls
+
 docker-deploy: ## deploy
 	git submodule foreach make docker-deploy
 
