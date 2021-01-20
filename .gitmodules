@@ -31,3 +31,6 @@
 [submodule "laravel"]
 	path = laravel
 	url = git@github.com:koromerzhin/template-laravel.git
+[submodule "wordpress"]
+	path = wordpress
+	url = git@github.com:koromerzhin/template-wordpress.git
