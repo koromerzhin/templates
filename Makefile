@@ -2,6 +2,13 @@
 %:
 	@:
 
+SUPPORTED_COMMANDS := contributors
+SUPPORTS_MAKE_ARGS := $(findstring $(firstword $(MAKECMDGOALS)), $(SUPPORTED_COMMANDS))
+ifneq "$(SUPPORTS_MAKE_ARGS)" ""
+  COMMAND_ARGS := $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS))
+  $(eval $(COMMAND_ARGS):;@:)
+endif
+
 help:
 	@grep -E '(^[a-zA-Z_-]+:.*?##.*$$)|(^##)' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[32m%-30s\033[0m %s\n", $$1, $$2}' | sed -e 's/\[32m##/[33m/'
 
@@ -16,42 +23,64 @@ install: node_modules ## Installation application
 	git submodule foreach make install
 
 contributors: ## Contributors
-	@npm run contributors
-
-contributors-add: ## add Contributors
+ifeq ($(COMMAND_ARGS),add)
 	@npm run contributors add
-
-contributors-check: ## check Contributors
+else ifeq ($(COMMAND_ARGS),check)
 	@npm run contributors check
-
-contributors-generate: ## generate Contributors
+else ifeq ($(COMMAND_ARGS),generate)
 	@npm run contributors generate
+else
+	@npm run contributors
+endif
 
-docker-image-pull: ## Get docker image
-	git submodule foreach make docker-image-pull
+docker: ## Scripts docker
+ifeq ($(COMMAND_ARGS),image-pull)
+	git submodule foreach make docker image-pull
+else ifeq ($(COMMAND_ARGS),deploy)
+	@git submodule foreach make docker deploy
+else ifeq ($(COMMAND_ARGS),stop)
+	@git submodule foreach make docker stop
+else
+	@echo "ARGUMENT missing"
+	@echo "---"
+	@echo "make docker ARGUMENT"
+	@echo "---"
+	@echo "image-pull: Get docker image"
+	@echo "deploy: deploy"
+	@echo "image-pull: Get docker image"
+	@echo "ls: docker service"
+	@echo "stop: docker stop"
+endif
 
-docker-ls: ## docker ls
-	git submodule foreach make docker-ls
-
-docker-deploy: ## deploy
-	git submodule foreach make docker-deploy
-
-docker-stop: ## docker stop
-	git submodule foreach make docker-stop
-
-git-commit: ## Commit data
-	npm run commit
-
-git-check: ## CHECK before
-	@make contributors-check -i
+git: ## Scripts GIT
+ifeq ($(COMMAND_ARGS),commit)
+	@npm run commit
+else ifeq ($(COMMAND_ARGS),status)
 	@git status
+else ifeq ($(COMMAND_ARGS),check)
+	@make contributors check -i
+	@make linter all -i
+	@make git status -i
+else
+	@echo "ARGUMENT missing"
+	@echo "---"
+	@echo "make git ARGUMENT"
+	@echo "---"
+	@echo "commit: Commit data"
+	@echo "check: CHECK before"
+	@echo "status: status"
+endif
 
-git-submodule: ## Git submodules
-	@git submodule update --init --recursive --remote
-
-git-update: ## Git submodule update
-	git pull origin develop
-	git submodule foreach git pull origin develop
-
-linter-readme: ## linter README.md
+linter: ## Scripts Linter
+ifeq ($(COMMAND_ARGS),all)
+	@make linter readme -i
+else ifeq ($(COMMAND_ARGS),readme)
 	@npm run linter-markdown README.md
+else
+	@echo "ARGUMENT missing"
+	@echo "---"
+	@echo "make linter ARGUMENT"
+	@echo "---"
+	@echo "all: ## Launch all linter"
+	@echo "readme: linter README.md"
+endif
