@@ -2,7 +2,7 @@
 %:
 	@:
 
-SUPPORTED_COMMANDS := contributors
+SUPPORTED_COMMANDS := contributors docker git linter
 SUPPORTS_MAKE_ARGS := $(findstring $(firstword $(MAKECMDGOALS)), $(SUPPORTED_COMMANDS))
 ifneq "$(SUPPORTS_MAKE_ARGS)" ""
   COMMAND_ARGS := $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS))
@@ -13,14 +13,14 @@ help:
 	@grep -E '(^[a-zA-Z_-]+:.*?##.*$$)|(^##)' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[32m%-30s\033[0m %s\n", $$1, $$2}' | sed -e 's/\[32m##/[33m/'
 
 package-lock.json: package.json
-	npm install
+	@npm install
 
 node_modules: package-lock.json
-	npm install
+	@npm install
 
 install: node_modules ## Installation application
 	@make git-submodule -i
-	git submodule foreach make install
+	@git submodule foreach make install
 
 contributors: ## Contributors
 ifeq ($(COMMAND_ARGS),add)
@@ -35,11 +35,13 @@ endif
 
 docker: ## Scripts docker
 ifeq ($(COMMAND_ARGS),image-pull)
-	git submodule foreach make docker image-pull
+	@git submodule foreach make docker image-pull
 else ifeq ($(COMMAND_ARGS),deploy)
 	@git submodule foreach make docker deploy
 else ifeq ($(COMMAND_ARGS),stop)
 	@git submodule foreach make docker stop
+else ifeq ($(COMMAND_ARGS),ls)
+	@git submodule foreach make docker ls
 else
 	@echo "ARGUMENT missing"
 	@echo "---"
