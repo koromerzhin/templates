@@ -49,13 +49,13 @@ make install
 ## after git add
 
 ```sh
-make git-check
+make git check
 ```
 
 ## Replace git commit
 
 ```sh
-make git-commit
+make git commit
 ```
 
 ## Help
