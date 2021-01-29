@@ -19,7 +19,7 @@ node_modules: package-lock.json
 	@npm install
 
 install: node_modules ## Installation application
-	@make git-submodule -i
+	@make git submodule -i
 	@git submodule foreach make install
 
 contributors: ## Contributors
@@ -59,6 +59,8 @@ ifeq ($(COMMAND_ARGS),commit)
 	@npm run commit
 else ifeq ($(COMMAND_ARGS),status)
 	@git status
+else ifeq ($(COMMAND_ARGS),submodule)
+	@git submodule update --init --recursive --remote
 else ifeq ($(COMMAND_ARGS),check)
 	@make contributors check -i
 	@make linter all -i
@@ -70,6 +72,7 @@ else
 	@echo "---"
 	@echo "commit: Commit data"
 	@echo "check: CHECK before"
+	@echo "submodule: Git submodules"
 	@echo "status: status"
 endif
 
