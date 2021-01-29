@@ -61,6 +61,10 @@ else ifeq ($(COMMAND_ARGS),status)
 	@git status
 else ifeq ($(COMMAND_ARGS),submodule)
 	@git submodule update --init --recursive --remote
+else ifeq ($(COMMAND_ARGS),update)
+	@git pull origin develop
+	@git submodule foreach git checkout develop
+	@git submodule foreach git pull origin develop
 else ifeq ($(COMMAND_ARGS),check)
 	@make contributors check -i
 	@make linter all -i
@@ -72,6 +76,7 @@ else
 	@echo "---"
 	@echo "commit: Commit data"
 	@echo "check: CHECK before"
+	@echo "update: submodule update"
 	@echo "submodule: Git submodules"
 	@echo "status: status"
 endif
