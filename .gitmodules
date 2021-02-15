@@ -37,3 +37,6 @@
 [submodule "jenkins"]
 	path = jenkins
 	url = git@github.com:koromerzhin/template-jenkins
+[submodule "redmine"]
+	path = redmine
+	url = git@github.com:koromerzhin/template-redmine.git

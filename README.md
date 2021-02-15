@@ -30,6 +30,7 @@
 | phpfpm | Nouveau projet sous phpfpm |
 | quasar | Nouveau projet sous quasar |
 | react | Nouveau projet sous react |
+| redmine | Nouveau projet sous redmine |
 | symfony | Nouveau projet sous symfony |
 | vuejs | Nouveau projet sous vuejs |
 | wordpress | Nouveau projet sous wordpress |
