@@ -22,6 +22,7 @@
 |--|--|
 | angular | Nouveau projet sous angular |
 | django | Nouveau projet sous django |
+| drupal | Nouveau projet sous drupal |
 | electron | Nouveau projet sous electron |
 | flutter | Nouveau projet sous flutter |
 | github | Nouveau projet sous github |

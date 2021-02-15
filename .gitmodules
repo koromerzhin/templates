@@ -43,3 +43,6 @@
 [submodule "nextcloud"]
 	path = nextcloud
 	url = git@github.com:koromerzhin/template-nextcloud.git
+[submodule "drupal"]
+	path = drupal
+	url = git@github.com:koromerzhin/template-drupal.git
