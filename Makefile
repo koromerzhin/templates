@@ -57,6 +57,8 @@ endif
 git: ## Scripts GIT
 ifeq ($(COMMAND_ARGS),commit)
 	@npm run commit
+else ifeq ($(COMMAND_ARGS),status-all)
+	@git submodule foreach git status
 else ifeq ($(COMMAND_ARGS),status)
 	@git status
 else ifeq ($(COMMAND_ARGS),submodule)
@@ -79,6 +81,7 @@ else
 	@echo "update: submodule update"
 	@echo "submodule: Git submodules"
 	@echo "status: status"
+	@echo "status-all: status ALL"
 endif
 
 linter: ## Scripts Linter
