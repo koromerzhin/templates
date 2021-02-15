@@ -34,3 +34,6 @@
 [submodule "wordpress"]
 	path = wordpress
 	url = git@github.com:koromerzhin/template-wordpress.git
+[submodule "jenkins"]
+	path = jenkins
+	url = git@github.com:koromerzhin/template-jenkins

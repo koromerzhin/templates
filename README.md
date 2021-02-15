@@ -25,6 +25,7 @@
 | electron | Nouveau projet sous electron |
 | flutter | Nouveau projet sous flutter |
 | github | Nouveau projet sous github |
+| jenkins | Nouveau projet sous jenkins |
 | laravel | Nouveau projet sous laravel |
 | phpfpm | Nouveau projet sous phpfpm |
 | quasar | Nouveau projet sous quasar |
