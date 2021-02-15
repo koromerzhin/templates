@@ -46,3 +46,6 @@
 [submodule "drupal"]
 	path = drupal
 	url = git@github.com:koromerzhin/template-drupal.git
+[submodule "keycloak"]
+	path = keycloak
+	url = git@github.com:koromerzhin/template-keycloak.git

@@ -27,6 +27,7 @@
 | flutter | Nouveau projet sous flutter |
 | github | Nouveau projet sous github |
 | jenkins | Nouveau projet sous jenkins |
+| keycloak | Nouveau projet sous keycloak |
 | laravel | Nouveau projet sous laravel |
 | nextcloud | Nouveau projet sous nextcloud |
 | phpfpm | Nouveau projet sous phpfpm |
