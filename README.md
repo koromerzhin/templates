@@ -27,6 +27,7 @@
 | github | Nouveau projet sous github |
 | jenkins | Nouveau projet sous jenkins |
 | laravel | Nouveau projet sous laravel |
+| nextcloud | Nouveau projet sous nextcloud |
 | phpfpm | Nouveau projet sous phpfpm |
 | quasar | Nouveau projet sous quasar |
 | react | Nouveau projet sous react |

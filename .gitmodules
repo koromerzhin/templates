@@ -40,3 +40,6 @@
 [submodule "redmine"]
 	path = redmine
 	url = git@github.com:koromerzhin/template-redmine.git
+[submodule "nextcloud"]
+	path = nextcloud
+	url = git@github.com:koromerzhin/template-nextcloud.git
