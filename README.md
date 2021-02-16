@@ -28,7 +28,7 @@
 | phpfpm | Nouveau projet sous phpfpm | ![Continuous Integration](https://github.com/koromerzhin/template-phpfpm/workflows/Continuous%20Integration/badge.svg?branch=develop) |
 | quasar | Nouveau projet sous quasar | ![Continuous Integration](https://github.com/koromerzhin/template-quasar/workflows/Continuous%20Integration/badge.svg?branch=develop) |
 | react | Nouveau projet sous react | ![Continuous Integration](https://github.com/koromerzhin/template-react/workflows/Continuous%20Integration/badge.svg?branch=develop) |
-| redmine | Nouveau projet sous redmine | ![Continuous Integration](https://github.com/koromerzhin/template-readmine/workflows/Continuous%20Integration/badge.svg?branch=develop) |
+| redmine | Nouveau projet sous redmine | ![Continuous Integration](https://github.com/koromerzhin/template-redmine/workflows/Continuous%20Integration/badge.svg?branch=develop) |
 | symfony | Nouveau projet sous symfony | ![Continuous Integration](https://github.com/koromerzhin/template-symfony/workflows/Continuous%20Integration/badge.svg?branch=develop) |
 | vuejs | Nouveau projet sous vuejs | ![Continuous Integration](https://github.com/koromerzhin/template-vuejs/workflows/Continuous%20Integration/badge.svg?branch=develop) |
 | wordpress | Nouveau projet sous wordpress | ![Continuous Integration](https://github.com/koromerzhin/template-wordpress/workflows/Continuous%20Integration/badge.svg?branch=develop) |
