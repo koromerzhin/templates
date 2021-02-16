@@ -15,23 +15,23 @@
 
 | projet | description | Continuous Integration |
 |--|--|--|
-| angular | Nouveau projet sous angular | ![Continuous Integration](https://github.com/koromerzhin/template-angular/workflows/Continuous%20Integration/badge.svg?branch=develop) |
-| django | Nouveau projet sous django | ![Continuous Integration](https://github.com/koromerzhin/template-django/workflows/Continuous%20Integration/badge.svg?branch=develop) |
-| drupal | Nouveau projet sous drupal | ![Continuous Integration](https://github.com/koromerzhin/template-drupal/workflows/Continuous%20Integration/badge.svg?branch=develop) |
-| electron | Nouveau projet sous electron | ![Continuous Integration](https://github.com/koromerzhin/template-electron/workflows/Continuous%20Integration/badge.svg?branch=develop) |
-| flutter | Nouveau projet sous flutter | ![Continuous Integration](https://github.com/koromerzhin/template-flutter/workflows/Continuous%20Integration/badge.svg?branch=develop) |
-| github | Nouveau projet sous github | ![Continuous Integration](https://github.com/koromerzhin/template-github/workflows/Continuous%20Integration/badge.svg?branch=develop) |
-| jenkins | Nouveau projet sous jenkins | ![Continuous Integration](https://github.com/koromerzhin/template-jenkins/workflows/Continuous%20Integration/badge.svg?branch=develop) |
-| keycloak | Nouveau projet sous keycloak | ![Continuous Integration](https://github.com/koromerzhin/template-keycloak/workflows/Continuous%20Integration/badge.svg?branch=develop) |
-| laravel | Nouveau projet sous laravel | ![Continuous Integration](https://github.com/koromerzhin/template-laravel/workflows/Continuous%20Integration/badge.svg?branch=develop) |
-| nextcloud | Nouveau projet sous nextcloud | ![Continuous Integration](https://github.com/koromerzhin/template-nextcloud/workflows/Continuous%20Integration/badge.svg?branch=develop) |
-| phpfpm | Nouveau projet sous phpfpm | ![Continuous Integration](https://github.com/koromerzhin/template-phpfpm/workflows/Continuous%20Integration/badge.svg?branch=develop) |
-| quasar | Nouveau projet sous quasar | ![Continuous Integration](https://github.com/koromerzhin/template-quasar/workflows/Continuous%20Integration/badge.svg?branch=develop) |
-| react | Nouveau projet sous react | ![Continuous Integration](https://github.com/koromerzhin/template-react/workflows/Continuous%20Integration/badge.svg?branch=develop) |
-| redmine | Nouveau projet sous redmine | ![Continuous Integration](https://github.com/koromerzhin/template-redmine/workflows/Continuous%20Integration/badge.svg?branch=develop) |
-| symfony | Nouveau projet sous symfony | ![Continuous Integration](https://github.com/koromerzhin/template-symfony/workflows/Continuous%20Integration/badge.svg?branch=develop) |
-| vuejs | Nouveau projet sous vuejs | ![Continuous Integration](https://github.com/koromerzhin/template-vuejs/workflows/Continuous%20Integration/badge.svg?branch=develop) |
-| wordpress | Nouveau projet sous wordpress | ![Continuous Integration](https://github.com/koromerzhin/template-wordpress/workflows/Continuous%20Integration/badge.svg?branch=develop) |
+| angular | Nouveau projet sous angular | [![Continuous Integration](https://github.com/koromerzhin/template-angular/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/template-angular) |
+| django | Nouveau projet sous django | [![Continuous Integration](https://github.com/koromerzhin/template-django/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/template-django) |
+| drupal | Nouveau projet sous drupal | [![Continuous Integration](https://github.com/koromerzhin/template-drupal/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/template-drupal) |
+| electron | Nouveau projet sous electron | [![Continuous Integration](https://github.com/koromerzhin/template-electron/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/template-electron) |
+| flutter | Nouveau projet sous flutter | [![Continuous Integration](https://github.com/koromerzhin/template-flutter/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/template-flutter) |
+| github | Nouveau projet sous github | [![Continuous Integration](https://github.com/koromerzhin/template-github/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/template-github) |
+| jenkins | Nouveau projet sous jenkins | [![Continuous Integration](https://github.com/koromerzhin/template-jenkins/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/template-jenkins) |
+| keycloak | Nouveau projet sous keycloak | [![Continuous Integration](https://github.com/koromerzhin/template-keycloak/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/template-keycloack) |
+| laravel | Nouveau projet sous laravel | [![Continuous Integration](https://github.com/koromerzhin/template-laravel/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/template-laravel) |
+| nextcloud | Nouveau projet sous nextcloud | [![Continuous Integration](https://github.com/koromerzhin/template-nextcloud/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/template-nextcloud) |
+| phpfpm | Nouveau projet sous phpfpm | [![Continuous Integration](https://github.com/koromerzhin/template-phpfpm/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/template-phpfpm) |
+| quasar | Nouveau projet sous quasar | [![Continuous Integration](https://github.com/koromerzhin/template-quasar/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/template-quasar) |
+| react | Nouveau projet sous react | [![Continuous Integration](https://github.com/koromerzhin/template-react/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/template-react) |
+| redmine | Nouveau projet sous redmine | [![Continuous Integration](https://github.com/koromerzhin/template-redmine/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/template-redmine) |
+| symfony | Nouveau projet sous symfony | [![Continuous Integration](https://github.com/koromerzhin/template-symfony/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/template-symfony) |
+| vuejs | Nouveau projet sous vuejs | [![Continuous Integration](https://github.com/koromerzhin/template-vuejs/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/template-vuejs) |
+| wordpress | Nouveau projet sous wordpress | [![Continuous Integration](https://github.com/koromerzhin/template-wordpress/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/template-wordpress) |
 
 ## Need
 
