@@ -13,8 +13,8 @@
 
 ## Infos
 
-| projet | description | | Continuous Integration |
-|--|--| -- |
+| projet | description | Continuous Integration |
+|--|--|--|
 | angular | Nouveau projet sous angular | ![Continuous Integration](https://github.com/koromerzhin/template-angular/workflows/Continuous%20Integration/badge.svg?branch=develop) |
 | django | Nouveau projet sous django | ![Continuous Integration](https://github.com/koromerzhin/template-django/workflows/Continuous%20Integration/badge.svg?branch=develop) |
 | drupal | Nouveau projet sous drupal | ![Continuous Integration](https://github.com/koromerzhin/template-drupal/workflows/Continuous%20Integration/badge.svg?branch=develop) |
