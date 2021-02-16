@@ -22,7 +22,7 @@ install: node_modules ## Installation application
 	@make git submodule -i
 	@git submodule foreach make install
 
-contributors: ## Contributors
+contributors: node_modules ## Contributors
 ifeq ($(COMMAND_ARGS),add)
 	@npm run contributors add
 else ifeq ($(COMMAND_ARGS),check)
