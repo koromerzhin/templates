@@ -1,6 +1,4 @@
 .DEFAULT_GOAL := help
-%:
-	@:
 
 SUPPORTED_COMMANDS := contributors docker git linter
 SUPPORTS_MAKE_ARGS := $(findstring $(firstword $(MAKECMDGOALS)), $(SUPPORTED_COMMANDS))

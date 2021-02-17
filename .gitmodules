@@ -49,3 +49,6 @@
 [submodule "keycloak"]
 	path = keycloak
 	url = git@github.com:koromerzhin/template-keycloak.git
+[submodule "joomla"]
+	path = joomla
+	url = git@github.com:koromerzhin/template-joomla.git
