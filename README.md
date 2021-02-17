@@ -15,6 +15,8 @@
 
 ## Infos
 
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
 | projet | description | Continuous Integration |
 |--|--|--|
 | angular | Nouveau projet sous angular | [![Continuous Integration](https://github.com/koromerzhin/template-angular/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/template-angular) |
@@ -35,6 +37,8 @@
 | symfony | Nouveau projet sous symfony | [![Continuous Integration](https://github.com/koromerzhin/template-symfony/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/template-symfony) |
 | vuejs | Nouveau projet sous vuejs | [![Continuous Integration](https://github.com/koromerzhin/template-vuejs/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/template-vuejs) |
 | wordpress | Nouveau projet sous wordpress | [![Continuous Integration](https://github.com/koromerzhin/template-wordpress/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://www.github.com/koromerzhin/template-wordpress) |
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
 
 ## Need
 
