@@ -52,3 +52,6 @@
 [submodule "joomla"]
 	path = joomla
 	url = git@github.com:koromerzhin/template-joomla.git
+[submodule "expressjs"]
+	path = expressjs
+	url = git@github.com:koromerzhin/template-expressjs.git
