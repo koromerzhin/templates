@@ -55,3 +55,6 @@
 [submodule "expressjs"]
 	path = expressjs
 	url = git@github.com:koromerzhin/template-expressjs.git
+[submodule "sveltejs"]
+	path = sveltejs
+	url = git@github.com:koromerzhin/template-sveltejs.git
