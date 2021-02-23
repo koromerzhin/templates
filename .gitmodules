@@ -58,3 +58,6 @@
 [submodule "sveltejs"]
 	path = sveltejs
 	url = git@github.com:koromerzhin/template-sveltejs.git
+[submodule "socketio"]
+	path = socketio
+	url = git@github.com:koromerzhin/template-socketio.git
