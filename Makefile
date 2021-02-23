@@ -32,9 +32,7 @@ else
 endif
 
 docker: ## Scripts docker
-ifeq ($(COMMAND_ARGS),image-pull)
-	@git submodule foreach make docker image-pull
-else ifeq ($(COMMAND_ARGS),deploy)
+ifeq ($(COMMAND_ARGS),deploy)
 	@git submodule foreach make docker deploy
 else ifeq ($(COMMAND_ARGS),stop)
 	@git submodule foreach make docker stop
@@ -45,9 +43,7 @@ else
 	@echo "---"
 	@echo "make docker ARGUMENT"
 	@echo "---"
-	@echo "image-pull: Get docker image"
 	@echo "deploy: deploy"
-	@echo "image-pull: Get docker image"
 	@echo "ls: docker service"
 	@echo "stop: docker stop"
 endif
