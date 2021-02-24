@@ -49,9 +49,7 @@ else
 endif
 
 git: ## Scripts GIT
-ifeq ($(COMMAND_ARGS),commit)
-	@npm run commit
-else ifeq ($(COMMAND_ARGS),status-all)
+ifeq ($(COMMAND_ARGS),status-all)
 	@git submodule foreach git status
 else ifeq ($(COMMAND_ARGS),status)
 	@git status
@@ -59,6 +57,7 @@ else ifeq ($(COMMAND_ARGS),submodule)
 	@git submodule update --init --recursive --remote
 else ifeq ($(COMMAND_ARGS),update)
 	@git pull origin develop
+	@make git submodule -i
 	@git submodule foreach git checkout develop
 	@git submodule foreach git pull origin develop
 else ifeq ($(COMMAND_ARGS),check)
@@ -70,7 +69,6 @@ else
 	@echo "---"
 	@echo "make git ARGUMENT"
 	@echo "---"
-	@echo "commit: Commit data"
 	@echo "check: CHECK before"
 	@echo "update: submodule update"
 	@echo "submodule: Git submodules"
