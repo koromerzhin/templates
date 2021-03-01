@@ -61,3 +61,9 @@
 [submodule "socketio"]
 	path = socketio
 	url = git@github.com:koromerzhin/template-socketio.git
+[submodule "nuxtjs"]
+	path = nuxtjs
+	url = git@github.com:koromerzhin/template-nuxtjs.git
+[submodule "nextjs"]
+	path = nextjs
+	url = git@github.com:koromerzhin/template-nextjs.git
